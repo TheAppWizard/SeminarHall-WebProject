@@ -1,0 +1,493 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/* margin: 0; */
+	padding: 2px;
+    background-color: black;
+	/* background-image: url("/Users/shreyasvilaschandrabhike/Desktop/SeminarHall/Images/headerblack.png"); */
+}
+
+.clearfix {
+	clear: both;
+}
+
+.lineclass {
+	background-color: black;
+	border: 1px solid #1a1a1a;
+	margin: 5%;
+}
+
+.header-banner {
+	padding-top: 35px;
+	padding-bottom: 100px;
+	color: #ffffff;
+	font-family: Helvetica, serif;
+	font-weight: 100;
+	background-image:url("/Users/shreyasvilaschandrabhike/Desktop/SeminarHall/Images/layer.png") , url("/Users/shreyasvilaschandrabhike/Desktop/SeminarHall/Images/bg.png");
+	background-position: top;
+    background-size: 100%;
+    background-repeat: repeat-x;
+    background-color: black;
+
+}
+
+.container-width {
+	width: 90%;
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+
+
+
+.logo-container {
+	float: left;
+	width: 50%;
+}
+
+.menu {
+	float: right;
+	width: 50%;
+}
+
+.menu-item {
+	float: right;
+	font-size: 15px;
+	color: #eee;
+	width: 155px;
+	/* padding: 10px; */
+	margin: 0;
+	/* min-height: 50px; */
+	text-align: center;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.lead-title {
+	margin: 150px 0 30px 0;
+	font-size: 50px;
+	text-align: center;
+}
+
+.sub-lead-title {
+	max-width: 800px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	color: gray;
+	text-align: center;
+	margin-bottom: 5%;
+	font-size: 22px;
+}
+
+.lead-btn {
+	margin-top: 15px;
+	padding: 10px;
+	width: 190px;
+	min-height: 30px;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 3px;
+	line-height: 30px;
+	background-color: #d983a6;
+	border-radius: 5px;
+	transition: all 0.5s ease;
+	cursor: pointer;
+}
+
+.lead-btn:hover {
+	background-color: #ffffff;
+	color: #4c114e;
+}
+
+.lead-btn:active {
+	background-color: #4d114f;
+	color: #fff;
+}
+
+.cards {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+
+.card {
+	background-color: white;
+	height: 300px;
+	width: 300px;
+	margin-bottom: 30px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+	transition: all 0.5s ease;
+	font-weight: 100;
+	overflow: hidden;
+}
+
+.card:hover {
+	margin-top: -5px;
+	box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+	border: 5px solid #1a1a1a;
+}
+
+.card-header {
+	height: 155px;
+	background-image: url("/Users/shreyasvilaschandrabhike/Desktop/SeminarHall/Images/general.png");
+	background-size: cover;
+	background-position: center center;
+}
+
+.card-header.ch2 {
+	background-image: url("/Users/shreyasvilaschandrabhike/Desktop/SeminarHall/Images/ai.png");
+}
+
+.card-header.ch3 {
+	background-image: url("/Users/shreyasvilaschandrabhike/Desktop/SeminarHall/Images/robo.png");
+}
+
+
+.card-body {
+	padding: 15px 15px 5px 15px;
+	color: #555;
+	
+}
+
+.card-title {
+	font-size: 1.4em;
+	margin-bottom: 5px;
+}
+
+.card-sub-title {
+	color: #b3b3b3;
+	font-size: 1em;
+	margin-bottom: 15px;
+}
+
+.card-desc {
+	font-size: 0.85rem;
+	line-height: 17px;
+}
+
+.footer-under {
+	background-image:url("/Users/shreyasvilaschandrabhike/Desktop/SeminarHall/Images/layer.png") , url("/Users/shreyasvilaschandrabhike/Desktop/SeminarHall/Images/reversebg.png");
+	padding-bottom: 100px;
+	padding-top: 100px;
+	min-height: 500px;
+	color: #eee;
+	position: relative;
+	font-weight: 100;
+	font-family: Helvetica, serif;
+}
+
+/* .copyright {
+	background-color: rgba(0, 0, 0, 0.15);
+	color: rgba(238, 238, 238, 0.5);
+	bottom: 0;
+	padding: 1em 0;
+	position: absolute;
+	width: 100%;
+	font-size: 0.75em;
+} */
+
+.foot-social-btns {
+	display: none;
+	float: right;
+	width: 50%;
+	text-align: right;
+	padding: 5px 0;
+}
+
+.bdg-sect {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	font-family: Helvetica, serif;
+	background-color: #000000;
+	/* background-image:url("/Users/shreyasvilaschandrabhike/Desktop/SeminarHall/Images/layer.png") , url("/Users/shreyasvilaschandrabhike/Desktop/SeminarHall/Images/bg.png"); */
+
+}
+
+
+
+
+.bdg-title {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	color: white;
+}
+
+.badges {
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.badge {
+	width: 290px;
+	font-family: Helvetica, serif;
+	background-color: white;
+	margin-bottom: 30px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+    border: 2px solid white;
+	font-weight: 100;
+	overflow: hidden;
+	text-align: center;
+}
+
+.badge-header {
+	/* height: 115px;
+	/* background-color: #1a1a1a; */
+	
+
+	height: 120px;
+	background-image:url("/Users/shreyasvilaschandrabhike/Desktop/SeminarHall/Images/layer.png") , url("/Users/shreyasvilaschandrabhike/Desktop/SeminarHall/Images/bg.png");
+	background-size: cover;
+	background-position: center center;
+}
+
+.badge-name {
+	font-size: 1.4em;
+	margin-bottom: 5px;
+}
+
+.badge-role {
+	color: #777;
+	font-size: 1em;
+	margin-bottom: 25px;
+}
+
+.badge-desc {
+	font-size: 0.85rem;
+	line-height: 20px;
+}
+
+.badge-avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	border: 5px solid #fff;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+	margin-top: -75px;
+	position: relative;
+}
+
+.badge-body {
+	margin: 35px 10px;
+}
+
+.badge-foot {
+	color: #fff;
+	background-color: black;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	display: flex;
+	justify-content: center;
+}
+
+.badge-foot2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.badge-link {
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	font-weight: 700;
+	background-color: #1a1a1a;
+	color: white;
+	display: block;
+	border-radius: 100%;
+	margin: 0 10px;
+}
+
+.badge-link2 {
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	font-weight: 700;
+	background-color: #1a1a1a;
+	color: white;
+	display: block;
+	border-radius: 100%;
+	margin: 0 10px;
+}
+
+#banner {
+	border: 0 solid black;
+}
+
+#leadtitle {
+	border-radius: 0 0 0 0;
+	border: 20px none black;
+	font-size: 40px;
+}
+
+#headcontainer {
+	display: block;
+}
+
+.row {
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	flex-wrap: nowrap;
+	padding: 10px;
+}
+
+.cell {
+	min-height: 75px;
+	flex-grow: 1;
+	flex-basis: 100%;
+}
+
+.brand{
+    width: 100%;
+    height: auto;
+}
+
+.registerbutton{
+  background-color: transparent; /* Green */
+  border: white 2px solid;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+}
+
+.registerbutton:hover{
+
+	background-color: #1a1a1a; /* Green */
+	border: white 2px solid;
+	color: white;
+}
+
+
+.registerbutton2{
+background-color: transparent; /* Green */
+  border: white 2px solid;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.registerbutton2:hover{
+
+	background-color: #1a1a1a; /* Green */
+	border: white 2px solid;
+	color: white;
+}
+
+#superheadtitle {
+	flex-basis: 109.3%;
+}
+
+#menu {
+	flex-basis: 94.28%;
+}
+
+#supertitle {
+	padding: 10px;
+	font-size: 50px;
+}
+
+#iframe {
+	height: 129px;
+	width: 291px;
+}
+
+#im99cu {
+	flex-basis: 106.89%;
+}
+
+#footertitle {
+	padding: 10px;
+	font-size: 50px;
+	text-align: center;
+}
+
+#badgefootopacity {
+	opacity: 1;
+}
+
+#lastline {
+	padding: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+#mwl {
+	font-size: medium;
+	text-align: start;
+}
+
+#namelast {
+	color: rgb(189, 193, 198);
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	background-color: rgb(32, 33, 36);
+}
+
+/* #iiqxf4 {
+	padding: 10px;
+	text-align: center;
+}
+
+#ittbxj {
+	flex-basis: 104.44%;
+	text-align: left;
+} */
+
+@media (max-width: 992px) {
+	#supertitle {
+		font-size: 35px;
+	}
+	#footertitle {
+		font-size: 25px;
+	}
+	#lastline {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 768px) {
+	.row {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 480px) {
+	#supertitle {
+		font-size: 25px;
+	}
+	#footertitle {
+		font-size: 25px;
+	}
+	#lastline {
+		font-size: 15px;
+	}
+}
